@@ -36,6 +36,9 @@ gem "bootsnap", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem "rack-cors"
 
+# ActiveModelSerializers brings convention over configuration to your JSON generation.
+gem 'active_model_serializers', '~> 0.10.0'
+
 group :development, :test do
   gem "faker"
   gem "factory_bot_rails"
